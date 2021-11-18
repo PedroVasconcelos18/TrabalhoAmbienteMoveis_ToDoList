@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Trabalho_ToDoList</string>
+    <string name="bem_vindo_text">Bem-vindo</string>
+    <string name="to_do_list_title">To Do List</string>
+    <string name="sign_up_title">Cadastre-se</string>
+    <string name="sign_up_name">Nome</string>
+    <string name="sign_up_email">Email</string>
+    <string name="sign_up_pass">Senha</string>
 </resources>

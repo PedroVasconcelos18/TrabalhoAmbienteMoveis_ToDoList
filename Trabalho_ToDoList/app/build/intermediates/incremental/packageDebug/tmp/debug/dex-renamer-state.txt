@@ -1,0 +1,16 @@
+#Wed Nov 17 23:14:36 BRT 2021
+path.4=7/classes.dex
+path.3=14/classes.dex
+path.2=13/classes.dex
+path.1=0/classes.dex
+path.0=classes.dex
+base.4=E\:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.3=E\:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.2=E\:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.1=E\:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=E\:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.4=classes5.dex

@@ -11,7 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalho_ToDoList">
         <activity
-            android:name=".ui.adapters.MainActivity"
+            android:name=".ui.activities.CadastrarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
