@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/cardview_dark_background"
     android:layout_height="match_parent">
 
@@ -13,96 +14,66 @@
         android:gravity="center"
         android:text="@string/sign_up_title"
         android:textColor="@color/white"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:layout_marginBottom="150dp"/>
 
     <RelativeLayout
-        android:id="@+id/name"
+        android:id="@+id/cadastroInputs"
         android:layout_below="@id/tituloSignUp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <TextView
-            android:id="@+id/titleNome"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:textColor="@color/white"
-            android:gravity="center"
-            android:text="@string/sign_up_name"
-            android:textSize="25dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/nameInput"
-            android:layout_below="@id/titleNome"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
-            android:textColor="@color/white"
             android:gravity="center"
-            android:layout_width="300dp"
-            android:layout_height="50dp" />
-
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/name">
-
-        <TextView
-            android:id="@+id/titleEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:hint="@string/insira_seu_nome_input"
+            android:inputType="text"
             android:textColor="@color/white"
-            android:layout_marginTop="50dp"
-            android:gravity="center"
-            android:text="@string/sign_up_email"
-            android:textSize="25dp" />
+            android:textColorHint="@color/white"
+            android:nextFocusDown="@id/emailInput"/>
+
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailInput"
+            android:layout_below="@id/nameInput"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:layout_below="@id/titleEmail"
+            android:hint="@string/insira_seu_email_input"
+            android:textColorHint="@color/white"
             android:layout_centerHorizontal="true"
             android:textColor="@color/white"
             android:layout_marginTop="5dp"
-            android:gravity="center" />
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/pass"
-        android:layout_below="@id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-
-        <TextView
-            android:id="@+id/titlePass"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:layout_marginTop="50dp"
             android:gravity="center"
-            android:text="@string/sign_up_pass"
-            android:textSize="25dp" />
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@id/passInput"
+            />
+
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passInput"
-            android:layout_below="@id/titlePass"
+            android:hint="@string/insira_sua_senha_input"
+            android:layout_below="@id/emailInput"
+            android:textColorHint="@color/white"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
             android:gravity="center"
             android:textColor="@color/white"
             android:layout_width="300dp"
-            android:layout_height="50dp" />
+            android:layout_height="50dp"
+            android:password="true"
+            tools:ignore="Deprecated"
+            />
 
     </RelativeLayout>
 
     <Button
         android:id="@+id/cadastrar"
-        android:layout_below="@id/pass"
+        android:layout_below="@id/cadastroInputs"
         android:layout_marginHorizontal="30dp"
         android:layout_centerHorizontal="true"
         android:layout_width="match_parent"

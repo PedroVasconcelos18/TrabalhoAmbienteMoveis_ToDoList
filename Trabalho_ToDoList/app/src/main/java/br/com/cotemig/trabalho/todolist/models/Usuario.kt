@@ -5,5 +5,5 @@ class Usuario {
     var email: String? = null
     var password: String? = null
     var name: String? = null
-
+    var token: String? = null
 }

@@ -11,7 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalho_ToDoList">
         <activity
-            android:name=".ui.activities.CadastrarActivity"
+            android:name=".ui.activities.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.TasksActivity"
             android:exported="true" />
         <activity
             android:name=".ui.activities.MainActivity"

@@ -11,7 +11,7 @@ import com.google.android.material.textfield.TextInputEditText
 import retrofit2.Call
 import retrofit2.Response
 
-class CadastrarActivity : AppCompatActivity() {
+class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
@@ -25,7 +25,7 @@ class CadastrarActivity : AppCompatActivity() {
     }
 
     fun cadastrarNovoUsuario() {
-        var nameInput = findViewById<TextInputEditText>(R.id.nameInput);
+        var nameInput = findViewById<TextInputEditText>(R.id.nameInput)
         var emailInput = findViewById<TextInputEditText>(R.id.emailInput);
         var passInput = findViewById<TextInputEditText>(R.id.passInput);
 
@@ -40,7 +40,7 @@ class CadastrarActivity : AppCompatActivity() {
         call.enqueue(object : retrofit2.Callback<Usuario> {
             override fun onResponse(call: Call<Usuario>, response: Response<Usuario>) {
                 if (response.code() == 200) {
-                    var intent = Intent(this@CadastrarActivity, SignInActivity::class.java)
+                    var intent = Intent(this@SignUpActivity, SignInActivity::class.java)
                     startActivity(intent)
                 }
             }

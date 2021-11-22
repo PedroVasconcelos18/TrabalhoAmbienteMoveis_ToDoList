@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">Trabalho_ToDoList</string>
     <string name="bem_vindo_text">Bem-vindo</string>
+    <string name="login_instrucoes_text">Insira os dados abaixo para executar o login</string>
     <string name="to_do_list_title">To Do List</string>
     <string name="sign_up_title">Cadastre-se</string>
     <string name="sign_up_name">Nome</string>
     <string name="sign_up_email">Email</string>
     <string name="sign_up_pass">Senha</string>
+    <string name="sign_in_title">Login</string>
+    <string name="insira_sua_senha_input">Insira sua senha</string>
+    <string name="insira_seu_email_input">Insira seu email</string>
+    <string name="insira_seu_nome_input">Insira seu nome</string>
+    <string name="title_tarefas">Tarefas</string>
+    <string name="mock_item_task">Teste</string>
 </resources>

@@ -1934,6 +1934,7 @@ id buttonPanel
 id buttons
 id cache_measures
 id cadastrar
+id cadastroInputs
 id cancel_button
 id carryVelocity
 id center
@@ -2006,7 +2007,6 @@ id easeOut
 id east
 id edit_query
 id elastic
-id email
 id emailInput
 id end
 id endToStart
@@ -2073,6 +2073,7 @@ id linear
 id listMode
 id list_item
 id loginButton
+id loginInputs
 id masked
 id match_constraint
 id match_parent
@@ -2129,7 +2130,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id name
 id nameInput
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
@@ -2158,7 +2158,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id pass
 id passInput
 id password_toggle
 id path
@@ -2256,6 +2255,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id task_name
+id tasksList
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2279,9 +2280,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
-id titleEmail
-id titleNome
-id titlePass
+id title_tarefas
 id title_template
 id titulo
 id tituloSignUp
@@ -2386,8 +2385,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout acitivity_sign_in
 layout activity_main
 layout activity_sign_up
+layout activity_tasks
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2404,6 +2405,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_task
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2520,7 +2522,11 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string insira_seu_email_input
+string insira_seu_nome_input
+string insira_sua_senha_input
 string item_view_role_description
+string login_instrucoes_text
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2541,6 +2547,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mock_item_task
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2582,11 +2589,13 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string sign_in_title
 string sign_up_email
 string sign_up_name
 string sign_up_pass
 string sign_up_title
 string status_bar_notification_info_overflow
+string title_tarefas
 string to_do_list_title
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

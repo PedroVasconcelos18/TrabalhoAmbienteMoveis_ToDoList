@@ -16,10 +16,20 @@ class MainActivity : AppCompatActivity() {
             onClickCadastrar();
         }
 
+        var loginButton = findViewById<Button>(R.id.loginButton)
+        loginButton.setOnClickListener {
+            onClickLogin();
+        }
+
     }
 
     fun onClickCadastrar() {
-        var intent = Intent(this, CadastrarActivity::class.java)
+        var intent = Intent(this, SignUpActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onClickLogin() {
+        var intent = Intent(this, SignInActivity::class.java)
         startActivity(intent)
     }
 }

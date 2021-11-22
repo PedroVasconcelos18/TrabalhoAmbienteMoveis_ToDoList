@@ -21,7 +21,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Trabalho_ToDoList" >
         <activity
-            android:name="br.com.cotemig.trabalho.todolist.ui.activities.CadastrarActivity"
+            android:name="br.com.cotemig.trabalho.todolist.ui.activities.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name="br.com.cotemig.trabalho.todolist.ui.activities.SignInActivity"
+            android:exported="true" />
+        <activity
+            android:name="br.com.cotemig.trabalho.todolist.ui.activities.TasksActivity"
             android:exported="true" />
         <activity
             android:name="br.com.cotemig.trabalho.todolist.ui.activities.MainActivity"
