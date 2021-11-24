@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [io.coil-kt:coil-svg:1.4.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\cbe6338e6f8986c70eead950c9ce5c57\transformed\jetified-coil-svg-1.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil:1.2.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\e9d9633e286b9989b8d779ad0187daee\transformed\jetified-coil-1.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt:coil-base:1.4.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\9eeccf044de5e0c145ea3b3bda6600a9\transformed\jetified-coil-base-1.4.0\AndroidManifest.xml:2:1-9:12
@@ -45,20 +45,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Pedro Henrique\.
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\1feed067c3ccb2060a22de2b8fbdda64\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\83a821c5ed854de3bf4d1e5fa7440a04\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\4501bb6c1b16d6c9ef0938c5a599105f\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml
 		INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml
-		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml
-		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:2:11-69
@@ -67,7 +67,7 @@ ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteM
 	android:name
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:6:5-31:19
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:6:5-37:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\b64c581a9daa138f08ffadfeafcf90fd\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\b64c581a9daa138f08ffadfeafcf90fd\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\Pedro Henrique\.gradle\caches\transforms-3\c6e6b7c8875e264f9f97d3822c951574\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
@@ -96,34 +96,46 @@ ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteM
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:15:13-36
 	android:name
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:14:13-57
-activity#br.com.cotemig.trabalho.todolist.ui.activities.SignInActivity
+activity#br.com.cotemig.trabalho.todolist.ui.activities.RegisterTaskActivity
 ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:16:9-18:39
 	android:exported
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:17:13-57
-activity#br.com.cotemig.trabalho.todolist.ui.activities.TasksActivity
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:17:13-63
+activity#br.com.cotemig.trabalho.todolist.ui.activities.TaskSelectedActivity
 ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:19:9-21:39
 	android:exported
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:20:13-56
-activity#br.com.cotemig.trabalho.todolist.ui.activities.MainActivity
-ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:22:9-30:20
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:20:13-63
+activity#br.com.cotemig.trabalho.todolist.ui.activities.SignInActivity
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:22:9-24:39
 	android:exported
 		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:23:13-55
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:23:13-57
+activity#br.com.cotemig.trabalho.todolist.ui.activities.TasksActivity
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:26:13-56
+activity#br.com.cotemig.trabalho.todolist.ui.activities.MainActivity
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:28:9-36:20
+	android:exported
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:29:13-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:34:27-74
 uses-sdk
 INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml

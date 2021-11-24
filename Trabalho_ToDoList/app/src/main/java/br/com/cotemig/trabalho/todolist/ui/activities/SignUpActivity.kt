@@ -3,6 +3,7 @@ package br.com.cotemig.trabalho.todolist.ui.activities
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import br.com.cotemig.trabalho.todolist.R
 import br.com.cotemig.trabalho.todolist.models.Usuario
@@ -46,7 +47,7 @@ class SignUpActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<Usuario>, t: Throwable) {
-                TODO("Not yet implemented")
+                Toast.makeText(this@SignUpActivity, "Erro ao cadastrar, favor conferir os dados", Toast.LENGTH_LONG).show()
             }
         })
     }

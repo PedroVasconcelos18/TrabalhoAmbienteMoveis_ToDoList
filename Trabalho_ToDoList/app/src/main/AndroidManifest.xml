@@ -14,6 +14,12 @@
             android:name=".ui.activities.SignUpActivity"
             android:exported="true" />
         <activity
+            android:name=".ui.activities.RegisterTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activities.TaskSelectedActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.activities.SignInActivity"
             android:exported="true" />
         <activity

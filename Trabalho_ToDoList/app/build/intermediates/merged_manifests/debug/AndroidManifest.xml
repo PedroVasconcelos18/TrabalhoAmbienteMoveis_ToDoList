@@ -24,6 +24,12 @@
             android:name="br.com.cotemig.trabalho.todolist.ui.activities.SignUpActivity"
             android:exported="true" />
         <activity
+            android:name="br.com.cotemig.trabalho.todolist.ui.activities.RegisterTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name="br.com.cotemig.trabalho.todolist.ui.activities.TaskSelectedActivity"
+            android:exported="true" />
+        <activity
             android:name="br.com.cotemig.trabalho.todolist.ui.activities.SignInActivity"
             android:exported="true" />
         <activity

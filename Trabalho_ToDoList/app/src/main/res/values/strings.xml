@@ -13,4 +13,17 @@
     <string name="insira_seu_nome_input">Insira seu nome</string>
     <string name="title_tarefas">Tarefas</string>
     <string name="mock_item_task">Teste</string>
+    <string name="back_activity_task_selected">Voltar</string>
+    <string name="detalhe_da_task_text">Detalhe da task</string>
+    <string name="cadastro_de_task_text">Cadastro de task</string>
+    <string name="salvar_button_register_task">Salvar</string>
+    <string name="tipo_de_tarefa_register_task">Tipo de tarefa</string>
+    <string name="descricao_register_task">Descrição</string>
+    <string name="nome_register_task">Nome</string>
+    <string name="login_button_sign_in">Login</string>
+    <string name="login_button_main">Login</string>
+    <string name="cadastrar_button_main">Cadastrar</string>
+    <string name="cadastrar_button_sign_up">Cadastrar</string>
+    <string name="esqueci_minha_senha_text">Esqueci minha senha</string>
+    <string name="recuperar_senha_button_forgot_pass">Recuperar Senha</string>
 </resources>

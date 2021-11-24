@@ -1771,6 +1771,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add_black_24dp
 drawable avd_hide_password
 drawable avd_show_password
 drawable books
@@ -1828,9 +1829,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable outline_add_black_24dp
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable work_at_home
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1979,6 +1982,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descInput
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2179,6 +2183,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id salvarButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2242,6 +2247,7 @@ id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tagInput
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -2255,7 +2261,10 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id taskAddButton
+id task_description
 id task_name
+id task_tags
 id tasksList
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
@@ -2280,10 +2289,12 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_tarefa
 id title_tarefas
 id title_template
 id titulo
 id tituloSignUp
+id titulolist
 id toggle
 id top
 id topPanel
@@ -2309,6 +2320,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id voltarButton
 id west
 id withText
 id withinBounds
@@ -2387,7 +2399,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout acitivity_sign_in
 layout activity_main
+layout activity_register_task
 layout activity_sign_up
+layout activity_task_selected
 layout activity_tasks
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2508,14 +2522,20 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string back_activity_task_selected
 string bem_vindo_text
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string cadastrar_button_main
+string cadastrar_button_sign_up
+string cadastro_de_task_text
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string descricao_register_task
+string detalhe_da_task_text
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2526,6 +2546,8 @@ string insira_seu_email_input
 string insira_seu_nome_input
 string insira_sua_senha_input
 string item_view_role_description
+string login_button_main
+string login_button_sign_in
 string login_instrucoes_text
 string material_clock_display_divider
 string material_clock_toggle_content_description
@@ -2583,11 +2605,13 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string nome_register_task
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string salvar_button_register_task
 string search_menu_title
 string sign_in_title
 string sign_up_email
@@ -2595,6 +2619,7 @@ string sign_up_name
 string sign_up_pass
 string sign_up_title
 string status_bar_notification_info_overflow
+string tipo_de_tarefa_register_task
 string title_tarefas
 string to_do_list_title
 style AlertDialog_AppCompat

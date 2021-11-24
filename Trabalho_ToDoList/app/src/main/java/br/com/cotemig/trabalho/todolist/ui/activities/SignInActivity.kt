@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
 import android.widget.Button
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import br.com.cotemig.trabalho.todolist.R
 import br.com.cotemig.trabalho.todolist.models.Usuario
@@ -44,6 +45,7 @@ class SignInActivity() : AppCompatActivity() {
                         var intent = Intent(this@SignInActivity, TasksActivity::class.java)
                         intent.putExtra("tokenUsuario", usuarioInfos.token)
                         intent.putExtra("nomeUsuario", usuarioInfos.name)
+                        intent.putExtra("idUsuario", usuarioInfos.id)
                         startActivity(intent)
                     }
 
@@ -51,7 +53,7 @@ class SignInActivity() : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<Usuario>, t: Throwable) {
-                TODO("Not yet implemented")
+                Toast.makeText(this@SignInActivity, "Erro ao logar, favor conferir seus dados de acesso", Toast.LENGTH_LONG).show()
             }
         })
         

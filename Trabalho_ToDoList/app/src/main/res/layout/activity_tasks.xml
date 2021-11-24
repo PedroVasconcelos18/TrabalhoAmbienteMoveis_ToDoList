@@ -3,22 +3,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/cardview_dark_background">
 
     <TextView
         android:id="@+id/title_tarefas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_tarefas"
         android:textColor="@color/white"
-        android:textSize="40dp"
-        android:text="@string/title_tarefas"/>
+        android:textSize="40dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/taskAddButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/title_tarefas"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="+"
+        android:src="@drawable/outline_add_black_24dp"
+        app:fabSize="normal" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/tasksList"
-        android:layout_below="@id/title_tarefas"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_tarefas"
         tools:listitem="@layout/item_task" />
 
 </RelativeLayout>

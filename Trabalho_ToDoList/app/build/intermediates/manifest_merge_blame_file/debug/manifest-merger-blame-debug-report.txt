@@ -15,7 +15,7 @@
 11-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:6:5-31:19
+13-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:6:5-37:19
 14        android:allowBackup="true"
 14-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:7:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -40,33 +40,45 @@
 25-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:15:13-36
 26        <activity
 26-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:16:9-18:39
-27            android:name="br.com.cotemig.trabalho.todolist.ui.activities.SignInActivity"
-27-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:17:13-57
+27            android:name="br.com.cotemig.trabalho.todolist.ui.activities.RegisterTaskActivity"
+27-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:17:13-63
 28            android:exported="true" />
 28-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:18:13-36
 29        <activity
 29-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:19:9-21:39
-30            android:name="br.com.cotemig.trabalho.todolist.ui.activities.TasksActivity"
-30-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:20:13-56
+30            android:name="br.com.cotemig.trabalho.todolist.ui.activities.TaskSelectedActivity"
+30-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:20:13-63
 31            android:exported="true" />
 31-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:21:13-36
 32        <activity
-32-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:22:9-30:20
-33            android:name="br.com.cotemig.trabalho.todolist.ui.activities.MainActivity"
-33-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:23:13-55
-34            android:exported="true" >
+32-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:22:9-24:39
+33            android:name="br.com.cotemig.trabalho.todolist.ui.activities.SignInActivity"
+33-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:23:13-57
+34            android:exported="true" />
 34-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:24:13-36
-35            <intent-filter>
-35-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:25:13-29:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:26:17-69
-36-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:26:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:28:17-77
-38-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:28:27-74
-39            </intent-filter>
-40        </activity>
-41    </application>
-42
-43</manifest>
+35        <activity
+35-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:25:9-27:39
+36            android:name="br.com.cotemig.trabalho.todolist.ui.activities.TasksActivity"
+36-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:26:13-56
+37            android:exported="true" />
+37-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:27:13-36
+38        <activity
+38-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:28:9-36:20
+39            android:name="br.com.cotemig.trabalho.todolist.ui.activities.MainActivity"
+39-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:29:13-55
+40            android:exported="true" >
+40-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:30:13-36
+41            <intent-filter>
+41-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:31:13-35:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:32:17-69
+42-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:32:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:34:17-77
+44-->E:\faculdade\ambientes moveis\AndroidStudioProjects\TrabalhoAmbienteMoveis_ToDoList\Trabalho_ToDoList\app\src\main\AndroidManifest.xml:34:27-74
+45            </intent-filter>
+46        </activity>
+47    </application>
+48
+49</manifest>

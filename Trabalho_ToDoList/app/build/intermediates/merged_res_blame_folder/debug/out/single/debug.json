@@ -1,27 +1,11 @@
 [
     {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
-    },
-    {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_books.png.flat",
@@ -32,12 +16,68 @@
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tasks.xml.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\activity_tasks.xml"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_work_at_home.png.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\drawable\\work_at_home.png"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_item_task.xml.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\item_task.xml"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_task_selected.xml.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\activity_task_selected.xml"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_black_24dp.png.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\drawable\\add_black_24dp.png"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_outline_add_black_24dp.png.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\drawable\\outline_add_black_24dp.png"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register_task.xml.flat",
+        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\activity_register_task.xml"
     },
     {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -48,35 +88,15 @@
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tasks.xml.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\activity_tasks.xml"
-    },
-    {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_acitivity_sign_in.xml.flat",
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\acitivity_sign_in.xml"
     },
     {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\layout_item_task.xml.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\layout\\item_task.xml"
-    },
-    {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     }
 ]

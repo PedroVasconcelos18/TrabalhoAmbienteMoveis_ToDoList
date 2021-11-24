@@ -1,6 +1,8 @@
 package br.com.cotemig.trabalho.todolist.ui.activities
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -9,6 +11,7 @@ import br.com.cotemig.trabalho.todolist.R
 import br.com.cotemig.trabalho.todolist.models.Task
 import br.com.cotemig.trabalho.todolist.services.RetrofitInitializer
 import br.com.cotemig.trabalho.todolist.ui.adapters.TasksAdapter
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import retrofit2.Call
 import retrofit2.Response
 
@@ -19,8 +22,15 @@ class TasksActivity : AppCompatActivity() {
 
         var tokenUsuario = intent.getStringExtra("tokenUsuario")
         var nomeUsuario = intent.getStringExtra("nomeUsuario")
+        var idUsuario = intent.getStringExtra("idUsuario")
 
         getTasks(tokenUsuario)
+
+        var addTaskButton = findViewById<FloatingActionButton>(R.id.taskAddButton)
+
+        addTaskButton.setOnClickListener {
+            addTasks(tokenUsuario, idUsuario);
+        }
 
     }
 
@@ -38,6 +48,7 @@ class TasksActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<List<Task>>, t: Throwable) {
+                Toast.makeText(this@TasksActivity, "Erro ao visualizar tasks, favor contatar o adminstrador do sistema", Toast.LENGTH_LONG).show()
             }
             
         })
@@ -45,8 +56,21 @@ class TasksActivity : AppCompatActivity() {
 
     fun showTasks(list: List<Task>) {
         var tasksList = findViewById<RecyclerView>(R.id.tasksList)
-        tasksList.adapter = TasksAdapter(this, list) {}
+        tasksList.adapter = TasksAdapter(this, list) { task ->
+            var intent = Intent(this, TaskSelectedActivity::class.java)
+            intent.putExtra("nomeUsuario", task.name)
+            intent.putExtra("descricaoTask", task.description)
+            intent.putExtra("tagsTask", task.tags)
+            startActivity(intent)
+        }
         tasksList.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+    }
+
+    fun addTasks(tokenUsuario: String?, idUsuario: String?) {
+        var intent = Intent(this, RegisterTaskActivity::class.java)
+        intent.putExtra("token", tokenUsuario)
+        intent.putExtra("idUsuario", idUsuario)
+        startActivity(intent)
     }
 
 }

@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cardview_dark_background"
+    android:hardwareAccelerated="false"
     tools:context=".ui.activities.MainActivity">
 
     <TextView
@@ -14,8 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:textColor="@color/white"
         android:text="@string/to_do_list_title"
+        android:textColor="@color/white"
         android:textSize="40dp" />
 
     <TextView
@@ -41,14 +42,14 @@
             android:layout_width="228dp"
             android:layout_height="228dp"
             android:layout_marginBottom="90dp"
-            android:src="@drawable/books" />
+            android:src="@drawable/work_at_home" />
 
         <Button
             android:layout_below="@id/imageMenu"
             android:id="@+id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="@string/login_button_main"
         />
 
         <Button
@@ -58,7 +59,7 @@
             android:layout_toRightOf="@id/loginButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cadastrar"
+            android:text="@string/cadastrar_button_main"
         />
 
     </RelativeLayout>
