@@ -46,13 +46,14 @@ class TasksActivity : AppCompatActivity() {
             ).show()
 
         }
+        //coloca corzinha do refresh
         swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
             android.R.color.holo_green_light,
             android.R.color.holo_orange_light,
             android.R.color.holo_red_light);
 
     }
-
+    // retorno de um startActivity declarado no addTasks
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == 1) {
             if (resultCode == RESULT_OK) {
@@ -131,6 +132,8 @@ class TasksActivity : AppCompatActivity() {
         var intent = Intent(this, RegisterTaskActivity::class.java)
         intent.putExtra("token", tokenUsuario)
         intent.putExtra("idUsuario", idUsuario)
+
+        //starta uma activity esperando um retorno
         startActivityForResult(intent, 1);
     }
 

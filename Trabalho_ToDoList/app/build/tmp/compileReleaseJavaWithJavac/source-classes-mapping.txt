@@ -1,0 +1,2 @@
+br/com/cotemig/trabalho/todolist/BuildConfig.java
+ br.com.cotemig.trabalho.todolist.BuildConfig

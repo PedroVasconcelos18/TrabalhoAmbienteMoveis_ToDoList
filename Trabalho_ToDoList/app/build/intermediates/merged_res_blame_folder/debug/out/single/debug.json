@@ -56,10 +56,6 @@
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_black_24dp.png.flat",
-        "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\drawable\\add_black_24dp.png"
-    },
-    {
         "merged": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\build\\intermediates\\merged_res\\debug\\drawable_quarantine_life_01.png.flat",
         "source": "E:\\faculdade\\ambientes moveis\\AndroidStudioProjects\\TrabalhoAmbienteMoveis_ToDoList\\Trabalho_ToDoList\\app\\src\\main\\res\\drawable\\quarantine_life_01.png"
     },

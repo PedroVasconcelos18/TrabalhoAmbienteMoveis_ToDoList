@@ -39,6 +39,8 @@ class ForgotPassActivity : AppCompatActivity() {
                 if (response.code() == 200 || response.code() == 204) {
                     Toast.makeText(this@ForgotPassActivity, "E-mail com sua nova senha enviado", Toast.LENGTH_LONG).show()
                     finish()
+                } else {
+                    Toast.makeText(this@ForgotPassActivity, "Erro ao recuperar senha, talvez o email não esteja cadastrado", Toast.LENGTH_LONG).show()
                 }
             }
 
