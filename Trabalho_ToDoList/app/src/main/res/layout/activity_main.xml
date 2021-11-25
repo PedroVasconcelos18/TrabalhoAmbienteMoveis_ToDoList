@@ -11,6 +11,7 @@
 
     <TextView
         android:id="@+id/titulo"
+        android:fontFamily="@font/outif_font"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -21,13 +22,14 @@
 
     <TextView
         android:id="@+id/subTitulo"
+        android:fontFamily="@font/outif_font"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/titulo"
         android:layout_marginTop="5dp"
-        android:textColor="@color/white"
         android:gravity="center"
         android:text="@string/bem_vindo_text"
+        android:textColor="@color/white"
         android:textSize="30dp" />
 
     <RelativeLayout
@@ -45,22 +47,22 @@
             android:src="@drawable/work_at_home" />
 
         <Button
-            android:layout_below="@id/imageMenu"
             android:id="@+id/loginButton"
+            android:fontFamily="@font/outif_font"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/login_button_main"
-        />
+            android:layout_below="@id/imageMenu"
+            android:text="@string/login_button_main" />
 
         <Button
             android:id="@+id/CadastrarButton"
-            android:layout_marginLeft="20dp"
-            android:layout_below="@id/imageMenu"
-            android:layout_toRightOf="@id/loginButton"
+            android:fontFamily="@font/outif_font"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cadastrar_button_main"
-        />
+            android:layout_below="@id/imageMenu"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/loginButton"
+            android:text="@string/cadastrar_button_main" />
 
     </RelativeLayout>
 

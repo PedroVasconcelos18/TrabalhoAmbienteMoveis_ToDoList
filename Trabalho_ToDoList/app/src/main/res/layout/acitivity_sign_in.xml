@@ -6,6 +6,7 @@
     android:background="@color/cardview_dark_background">
 
     <TextView
+        android:fontFamily="@font/outif_font"
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,6 +17,7 @@
         android:textSize="40dp" />
 
     <TextView
+        android:fontFamily="@font/outif_font"
         android:id="@+id/subTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,6 +44,7 @@
             android:layout_marginTop="5dp"
             android:gravity="center"
             android:hint="@string/insira_seu_email_input"
+            android:fontFamily="@font/outif_font"
             android:inputType="textEmailAddress"
             android:nextFocusDown="@id/passInput"
             android:textColor="@color/white"
@@ -56,6 +59,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:gravity="center"
+            android:fontFamily="@font/outif_font"
             android:hint="@string/insira_sua_senha_input"
             android:password="true"
             android:textColor="@color/white"
@@ -71,6 +75,7 @@
         android:layout_below="@id/loginInputs"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/outif_font"
         android:layout_marginTop="30dp"
         android:text="@string/login_button_sign_in"
         android:textSize="20dp" />
@@ -84,6 +89,7 @@
         android:layout_marginBottom="150dp"
         android:gravity="center"
         android:text="@string/esqueci_minha_senha_text"
+        android:fontFamily="@font/outif_font"
         android:textColor="@color/white"
         android:textSize="17dp" />
 

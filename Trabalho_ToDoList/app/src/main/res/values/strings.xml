@@ -26,4 +26,7 @@
     <string name="cadastrar_button_sign_up">Cadastrar</string>
     <string name="esqueci_minha_senha_text">Esqueci minha senha</string>
     <string name="recuperar_senha_button_forgot_pass">Recuperar Senha</string>
+    <string name="nome_da_task_detalhes_task">Nome da task:</string>
+    <string name="descri_o_da_task_detalhes_task">Descrição da task:</string>
+    <string name="tipo_da_task_detalhes_task">Tipo da task:</string>
 </resources>

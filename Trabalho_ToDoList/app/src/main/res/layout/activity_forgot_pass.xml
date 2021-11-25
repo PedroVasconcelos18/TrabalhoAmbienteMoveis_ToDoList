@@ -6,6 +6,7 @@
 
     <TextView
         android:id="@+id/titulo"
+        android:fontFamily="@font/outif_font"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -14,27 +15,42 @@
         android:textColor="@color/white"
         android:textSize="30dp" />
 
+
+    <ImageView
+        android:id="@+id/imageforgotPass"
+        android:layout_width="228dp"
+        android:layout_height="228dp"
+        android:layout_below="@id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/couch_potato" />
+
     <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/emailInput"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="150dp"
-            android:gravity="center"
-            android:hint="@string/insira_seu_email_input"
-            android:inputType="textEmailAddress"
-            android:layout_below="@id/titulo"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white" />
+        android:id="@+id/emailInput"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/imageforgotPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/outif_font"
+        android:gravity="center"
+        android:hint="@string/insira_seu_email_input"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/recuperarButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/emailInput"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="30dp"
+        android:fontFamily="@font/outif_font"
         android:text="@string/recuperar_senha_button_forgot_pass"
         android:textSize="20dp" />
 

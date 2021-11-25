@@ -1,5 +1,6 @@
 package br.com.cotemig.trabalho.todolist.ui.activities
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -7,6 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import br.com.cotemig.trabalho.todolist.R
 import br.com.cotemig.trabalho.todolist.models.Task
 import br.com.cotemig.trabalho.todolist.services.RetrofitInitializer
@@ -23,15 +25,74 @@ class TasksActivity : AppCompatActivity() {
         var tokenUsuario = intent.getStringExtra("tokenUsuario")
         var nomeUsuario = intent.getStringExtra("nomeUsuario")
         var idUsuario = intent.getStringExtra("idUsuario")
+        var tokenPersistence = ""
 
         getTasks(tokenUsuario)
 
         var addTaskButton = findViewById<FloatingActionButton>(R.id.taskAddButton)
-
         addTaskButton.setOnClickListener {
             addTasks(tokenUsuario, idUsuario);
         }
 
+        var swipeContainer = findViewById<SwipeRefreshLayout>(R.id.swipeContainer)
+
+        //Evitar o loop infinito no inicio da aplicação
+        swipeContainer.setOnRefreshListener {
+            swipeContainer.setRefreshing(false)
+            Toast.makeText(
+                this@TasksActivity,
+                "Sua lista já está atualizada",
+                Toast.LENGTH_LONG
+            ).show()
+
+        }
+        swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
+            android.R.color.holo_green_light,
+            android.R.color.holo_orange_light,
+            android.R.color.holo_red_light);
+
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        if (requestCode == 1) {
+            if (resultCode == RESULT_OK) {
+                val result = data?.getStringExtra("resultado")
+                var cont = 0;
+                var swipeContainer = findViewById<SwipeRefreshLayout>(R.id.swipeContainer)
+                if(cont <= 0) {
+                    swipeContainer.setOnRefreshListener {
+                        cont++
+                        Toast.makeText(this@TasksActivity, "Atualizada", Toast.LENGTH_LONG).show()
+                        getTasks(result)
+                        swipeContainer.setRefreshing(false)
+                        }
+
+                    swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
+                        android.R.color.holo_green_light,
+                        android.R.color.holo_orange_light,
+                        android.R.color.holo_red_light);
+                } else {
+                    swipeContainer.setOnRefreshListener {
+                        swipeContainer.setRefreshing(false)
+                        Toast.makeText(this@TasksActivity, "Sua lista já está atualizada", Toast.LENGTH_LONG).show()
+                    }
+                    swipeContainer.setColorSchemeResources(android.R.color.holo_blue_bright,
+                        android.R.color.holo_green_light,
+                        android.R.color.holo_orange_light,
+                        android.R.color.holo_red_light);
+                }
+            }
+        } else {
+            var swipeContainer = findViewById<SwipeRefreshLayout>(R.id.swipeContainer)
+            swipeContainer.setOnRefreshListener {
+                swipeContainer.setRefreshing(false)
+                Toast.makeText(
+                    this@TasksActivity,
+                    "Sua lista já está atualizada",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+        }
     }
 
     fun getTasks(tokenUsuario: String? ) {
@@ -70,7 +131,7 @@ class TasksActivity : AppCompatActivity() {
         var intent = Intent(this, RegisterTaskActivity::class.java)
         intent.putExtra("token", tokenUsuario)
         intent.putExtra("idUsuario", idUsuario)
-        startActivity(intent)
+        startActivityForResult(intent, 1);
     }
 
 }

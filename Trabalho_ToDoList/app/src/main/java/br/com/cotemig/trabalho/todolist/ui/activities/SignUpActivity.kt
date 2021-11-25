@@ -43,6 +43,8 @@ class SignUpActivity : AppCompatActivity() {
                 if (response.code() == 200) {
                     var intent = Intent(this@SignUpActivity, SignInActivity::class.java)
                     startActivity(intent)
+                } else {
+                    Toast.makeText(this@SignUpActivity, "Erro ao cadastrar, favor conferir os dados", Toast.LENGTH_LONG).show()
                 }
             }
 

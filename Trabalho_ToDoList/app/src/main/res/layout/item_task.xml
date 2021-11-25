@@ -6,6 +6,7 @@
     android:background="@color/cardview_dark_background">
 
     <TextView
+        android:fontFamily="@font/outif_font"
         android:id="@+id/task_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

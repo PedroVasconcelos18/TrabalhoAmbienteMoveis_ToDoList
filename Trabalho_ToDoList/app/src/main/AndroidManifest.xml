@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Trabalho_ToDoList">
         <activity
+            android:name=".ui.activities.ForgotPassActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.activities.SignUpActivity"
             android:exported="true" />
         <activity

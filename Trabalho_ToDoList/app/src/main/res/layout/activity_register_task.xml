@@ -8,41 +8,56 @@
 
     <TextView
         android:id="@+id/titulolist"
+        android:fontFamily="@font/outif_font"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="60dp"
         android:gravity="center"
         android:text="@string/cadastro_de_task_text"
         android:textColor="@color/white"
         android:textSize="40dp" />
 
+    <ImageView
+        android:id="@+id/imagecadastro"
+        android:layout_width="228dp"
+        android:layout_height="228dp"
+        android:layout_below="@id/titulolist"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/quarantine_life_01" />
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/nameInput"
+        android:fontFamily="@font/outif_font"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_below="@id/titulolist"
+        android:layout_below="@id/imagecadastro"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:gravity="center"
         android:hint="@string/nome_register_task"
+        android:nextFocusDown="@id/descInput"
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/descInput"
+        android:fontFamily="@font/outif_font"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:hint="@string/descricao_register_task"
-        android:textColorHint="@color/white"
         android:layout_below="@id/nameInput"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:textColor="@color/white" />
+        android:hint="@string/descricao_register_task"
+        android:nextFocusDown="@id/tagInput"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/tagInput"
+        android:fontFamily="@font/outif_font"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_below="@id/descInput"
@@ -50,8 +65,8 @@
         android:layout_marginTop="5dp"
         android:gravity="center"
         android:hint="@string/tipo_de_tarefa_register_task"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
 
     <Button
         android:id="@+id/salvarButton"

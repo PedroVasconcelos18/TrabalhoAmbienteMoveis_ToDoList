@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import br.com.cotemig.trabalho.todolist.R
@@ -24,6 +25,13 @@ class SignInActivity() : AppCompatActivity() {
 
         loginButton.setOnClickListener {
             loginUsuario();
+        }
+
+        var esqueciMinhaSenhaText = findViewById<TextView>(R.id.esqueciMinhaSenha)
+
+        esqueciMinhaSenhaText.setOnClickListener {
+            var intent = Intent(this@SignInActivity, ForgotPassActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -49,6 +57,8 @@ class SignInActivity() : AppCompatActivity() {
                         startActivity(intent)
                     }
 
+                } else {
+                    Toast.makeText(this@SignInActivity, "Erro ao logar, favor conferir seus dados de acesso", Toast.LENGTH_LONG).show()
                 }
             }
 

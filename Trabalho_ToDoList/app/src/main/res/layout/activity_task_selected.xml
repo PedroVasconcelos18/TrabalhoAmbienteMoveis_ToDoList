@@ -10,51 +10,125 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/outif_font"
         android:gravity="center"
         android:text="@string/detalhe_da_task_text"
         android:textColor="@color/white"
         android:textSize="35dp" />
 
-    <TextView
-        android:id="@+id/task_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imagedesc"
+        android:layout_width="228dp"
+        android:layout_height="200dp"
         android:layout_below="@id/title_tarefa"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/headache_01" />
 
-    <TextView
-        android:id="@+id/task_description"
+    <RelativeLayout
+        android:id="@+id/nameGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/task_name"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:layout_below="@id/imagedesc">
 
-    <TextView
-        android:id="@+id/task_tags"
+        <TextView
+            android:id="@+id/name_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/outif_font"
+            android:gravity="center"
+            android:text="@string/nome_da_task_detalhes_task"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_title"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/outif_font"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/descGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/task_description"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:layout_below="@id/nameGroup">
+
+        <TextView
+            android:id="@+id/desc_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/outif_font"
+            android:text="@string/descri_o_da_task_detalhes_task"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/task_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/desc_title"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/outif_font"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tagGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descGroup">
+
+        <TextView
+            android:id="@+id/tag_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/outif_font"
+            android:gravity="center"
+            android:text="@string/tipo_da_task_detalhes_task"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/task_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tag_title"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/outif_font"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
 
     <Button
         android:id="@+id/voltarButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/task_tags"
+        android:layout_below="@id/tagGroup"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="@string/back_activity_task_selected"
         android:textSize="20dp" />
 

@@ -8,21 +8,31 @@
 
     <TextView
         android:id="@+id/tituloSignUp"
+        android:fontFamily="@font/outif_font"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center"
         android:text="@string/sign_up_title"
         android:textColor="@color/white"
-        android:textSize="40dp"
-        android:layout_marginBottom="150dp"/>
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imagecadastro"
+        android:layout_width="228dp"
+        android:layout_height="228dp"
+        android:layout_below="@id/tituloSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/online_class_01" />
 
     <RelativeLayout
         android:id="@+id/cadastroInputs"
-        android:layout_below="@id/tituloSignUp"
+        android:layout_below="@id/imagecadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="200dp">
+        android:layout_marginBottom="60dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/nameInput"
@@ -30,57 +40,58 @@
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/outif_font"
             android:gravity="center"
             android:hint="@string/insira_seu_nome_input"
             android:inputType="text"
+            android:nextFocusDown="@id/emailInput"
             android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:nextFocusDown="@id/emailInput"/>
+            android:textColorHint="@color/white" />
 
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailInput"
-            android:layout_below="@id/nameInput"
             android:layout_width="300dp"
             android:layout_height="50dp"
-            android:hint="@string/insira_seu_email_input"
-            android:textColorHint="@color/white"
+            android:layout_below="@id/nameInput"
             android:layout_centerHorizontal="true"
-            android:textColor="@color/white"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/outif_font"
             android:gravity="center"
+            android:hint="@string/insira_seu_email_input"
             android:inputType="textEmailAddress"
             android:nextFocusDown="@id/passInput"
-            />
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passInput"
-            android:hint="@string/insira_sua_senha_input"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
             android:layout_below="@id/emailInput"
-            android:textColorHint="@color/white"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
             android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:hint="@string/insira_sua_senha_input"
             android:password="true"
-            tools:ignore="Deprecated"
-            />
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            tools:ignore="Deprecated" />
 
     </RelativeLayout>
 
     <Button
         android:id="@+id/cadastrar"
-        android:layout_below="@id/cadastroInputs"
-        android:layout_marginHorizontal="30dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cadastroInputs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="30dp"
         android:text="@string/cadastrar_button_sign_up"
-        android:textSize="20dp"
-        android:layout_height="wrap_content" />
+        android:fontFamily="@font/outif_font"
+        android:textSize="20dp" />
 
 
 

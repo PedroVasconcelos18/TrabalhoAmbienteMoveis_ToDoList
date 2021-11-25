@@ -19,7 +19,7 @@ class RegisterTaskActivity : AppCompatActivity() {
 
         var tokenUsuario = intent.getStringExtra("token")
         var idUsuario = intent.getStringExtra("idUsuario")
-        var idProjeto = "7ajvo18rco5jc1fkt9lmba"
+        var idProjeto = "7a5125t9oe8211fla6i3v6"
 
         var SalvarButton = findViewById<Button>(R.id.salvarButton)
 
@@ -46,8 +46,11 @@ class RegisterTaskActivity : AppCompatActivity() {
         call.enqueue(object : retrofit2.Callback<Void> {
             override fun onResponse(call: Call<Void>, response: Response<Void>) {
                 if (response.code() == 200 || response.code() == 201) {
-                    Toast.makeText(this@RegisterTaskActivity, "Task cadastrada com sucesso", Toast.LENGTH_LONG).show()
-                    finish()
+                    Toast.makeText(this@RegisterTaskActivity, "Task cadastrada com sucesso, puxe a tela para cima para atualizar!", Toast.LENGTH_LONG).show();
+                    var intent = Intent(this@RegisterTaskActivity, TasksActivity::class.java);
+                    intent.putExtra("resultado", tokenUsuario);
+                    setResult(RESULT_OK, intent);
+                    finish();
                 }
             }
 

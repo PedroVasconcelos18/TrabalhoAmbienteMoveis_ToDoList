@@ -19,6 +19,7 @@ class TasksAdapter (var context: Context, var list: List<Task>, var onClickTask:
 
     override fun onBindViewHolder(holder: TasksAdapter.TaskHolder, position: Int) {
         holder.bind(list[position], onClickTask)
+
     }
 
     override fun getItemCount(): Int {
@@ -27,13 +28,26 @@ class TasksAdapter (var context: Context, var list: List<Task>, var onClickTask:
 
     class TaskHolder(var view: View): RecyclerView.ViewHolder(view) {
         fun bind(task: Task, onClickTask: (Task) -> Unit) {
-
             var nameTask = view.findViewById<TextView>(R.id.task_name)
             nameTask.text = task.name
 
             nameTask.setOnClickListener{
                 onClickTask(task)
             }
+
+
         }
     }
+
+//    // Clean all elements of the recycler
+//    fun clear() {
+//        list.clear()
+//        notifyDataSetChanged()
+//    }
+//
+//    // Add a list of items -- change to type used
+//    fun addAll(tweetList: List<Task>) {
+//        list.addAll(tweetList)
+//        notifyDataSetChanged()
+//    }
 }

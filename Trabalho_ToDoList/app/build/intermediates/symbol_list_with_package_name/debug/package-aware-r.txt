@@ -881,6 +881,7 @@ attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
 attr svg
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -1783,11 +1784,13 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable couch_potato
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable headache_01
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1829,11 +1832,15 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable online_class_01
 drawable outline_add_black_24dp
+drawable quarantine_life_01
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable work_at_home
+font outfit_regular
+font outif_font
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1982,7 +1989,9 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descGroup
 id descInput
+id desc_title
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2016,6 +2025,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id esqueciMinhaSenha
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2053,6 +2063,9 @@ id ignore
 id ignoreRequest
 id image
 id imageMenu
+id imagecadastro
+id imagedesc
+id imageforgotPass
 id immediateStop
 id included
 id info
@@ -2134,7 +2147,9 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameGroup
 id nameInput
+id name_title
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
@@ -2176,6 +2191,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recuperarButton
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2246,7 +2262,9 @@ id subTitulo
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swipeContainer
 id tabMode
+id tagGroup
 id tagInput
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2257,6 +2275,7 @@ id tag_on_receive_content_listener
 id tag_on_receive_content_mime_types
 id tag_screen_reader_focusable
 id tag_state_description
+id tag_title
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -2398,6 +2417,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acitivity_sign_in
+layout activity_forgot_pass
 layout activity_main
 layout activity_register_task
 layout activity_sign_up
@@ -2534,9 +2554,11 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string descri_o_da_task_detalhes_task
 string descricao_register_task
 string detalhe_da_task_text
 string error_icon_content_description
+string esqueci_minha_senha_text
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -2605,12 +2627,14 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string nome_da_task_detalhes_task
 string nome_register_task
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string recuperar_senha_button_forgot_pass
 string salvar_button_register_task
 string search_menu_title
 string sign_in_title
@@ -2619,6 +2643,7 @@ string sign_up_name
 string sign_up_pass
 string sign_up_title
 string status_bar_notification_info_overflow
+string tipo_da_task_detalhes_task
 string tipo_de_tarefa_register_task
 string title_tarefas
 string to_do_list_title
@@ -3469,6 +3494,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text
